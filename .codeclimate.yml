@@ -3,6 +3,8 @@ prepare:
   - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/phpcodesniffer.xml"
   - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/phpmd.xml"
   - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/.scss-lint.yml"
+  - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/.eslintignore"
+  - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/.eslintrc.js"
 engines:
   duplication:
     enabled: true
