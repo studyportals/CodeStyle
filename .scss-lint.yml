@@ -1,0 +1,57 @@
+#https://github.com/brigade/scss-lint/blob/master/lib/scss_lint/linter/README.md
+
+linters:
+  NameFormat:
+    enabled: true
+    allow_leading_underscore: false
+    convention: ^[A-Z][a-zA-Z]+$
+    convention_explanation: "UpperCamelCase"
+    function_convention: ^[a-zA-Z]*-?[a-zA-Z]*$
+    function_convention_explanation: "Only letters allowed"
+    mixin_convention: ^[a-zA-Z]+$
+    mixin_convention_explanation: "Only letters allowed"
+    variable_convention: ^[A-Z][a-zA-Z]*$
+    variable_convention_explanation: "UpperCamelCase"
+
+  SelectorFormat:
+    enabled: true
+    allow_leading_underscore: false
+    convention: ^[A-Z][a-zA-Z]*$
+    convention_explanation: "UpperCamelCase"
+    element_convention: ^[a-zA-Z]+\d?$
+    element_convention_explanation: "Only letters allowed"
+    id_convention: ^[a-zA-Z]+$
+    id_convention_explanation: "Only letters allowed"
+    attribute_convention: ^[a-z]+$
+    attribute_convention_explanation: "Lowercase only"
+
+  NestingDepth:
+    enabled: true
+    max_depth: 4
+
+  LeadingZero:
+    enabled: false
+
+  Indentation:
+    enabled: true
+    character: tab
+    width: 1
+
+  SpaceBetweenParens:
+    enabled: true
+    spaces: 0
+
+  IdSelector:
+    enabled: false
+
+  SpaceBeforeBrace:
+    enabled: false
+
+  Shorthand:
+    enabled: false
+
+  EmptyLineBetweenBlocks:
+    enabled: true
+
+  Comment:
+    enabled: false
