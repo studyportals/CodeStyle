@@ -30,7 +30,8 @@ linters:
     max_depth: 4
 
   LeadingZero:
-    enabled: false
+    enabled: true
+    style: include_zero
 
   Indentation:
     enabled: true
@@ -60,4 +61,5 @@ linters:
     enabled: false
 
   FinalNewline:
-    enabled: false
+    enabled: true
+    present: false
