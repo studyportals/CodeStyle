@@ -64,6 +64,7 @@
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing.Before"/>
 		<exclude name="Squiz.WhiteSpace.OperatorSpacing.SpacingAfter"/>
 		<exclude name="Squiz.Commenting.InlineComment.DocBlock"/>
+		<exclude name="Squiz.Commenting.BlockComment.WrongStart"/>
 	</rule>
 	<rule ref="Generic">
 		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
