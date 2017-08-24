@@ -63,3 +63,22 @@ linters:
   FinalNewline:
     enabled: true
     present: false
+
+  HexNotation:
+    enabled: true
+    style: uppercase
+
+  HexLength:
+    enabled: true
+    style: long
+
+  HexValidation:
+    enabled: true
+
+  SingleLinePerSelector:
+    enabled: false
+
+  ImportPath:
+    enabled: true
+    leading_underscore: false
+    filename_extension: false
