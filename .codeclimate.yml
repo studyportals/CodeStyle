@@ -37,3 +37,5 @@ ratings:
     - "**.php"
     - "**.scss"
     - "**.js"
+exclude_paths:
+   - "**/Vendor/"
