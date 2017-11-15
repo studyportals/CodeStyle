@@ -4,7 +4,7 @@ linters:
   NameFormat:
     enabled: true
     allow_leading_underscore: false
-    convention: ^[A-Z][a-zA-Z]+$
+    convention: ^[a-zA-Z]*-?[a-zA-Z]*$
     convention_explanation: "UpperCamelCase"
     function_convention: ^[a-zA-Z]*-?[a-zA-Z]*$
     function_convention_explanation: "Only letters allowed"
