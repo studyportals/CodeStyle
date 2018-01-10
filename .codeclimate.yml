@@ -5,6 +5,7 @@ prepare:
   - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/.scss-lint.yml"
   - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/.eslintignore"
   - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/.eslintrc.js"
+  - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/tslint.json"
 engines:
   duplication:
     enabled: true
@@ -16,6 +17,9 @@ engines:
       - python:
   eslint:
     enabled: true
+  tslint:
+    enabled: true
+    config: tslint.json
   fixme:
     enabled: true
   phpcodesniffer:
