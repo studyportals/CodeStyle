@@ -14,6 +14,7 @@
         "only-arrow-functions": false,
         "no-string-literal": false,
         "arrow-parens": false,
+        "member-ordering": [true, {"order": "fields-first"}],
         "trailing-comma": [
             true,
             {
