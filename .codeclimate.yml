@@ -42,4 +42,4 @@ ratings:
     - "**.scss"
     - "**.js"
 exclude_paths:
-   - "**/Vendor/"
+   - "**/vendor/"
