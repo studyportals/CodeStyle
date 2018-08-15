@@ -61,11 +61,13 @@
 		<exclude name="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose"/>
 		<exclude name="Squiz.WhiteSpace.FunctionOpeningBraceSpace.SpacingAfter"/>
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing.After"/>
+		<exclude name="Squiz.WhiteSpace.FunctionSpacing.AfterLast"/>
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing.Before"/>
 		<exclude name="Squiz.WhiteSpace.OperatorSpacing.SpacingAfter"/>
 		<exclude name="Squiz.Commenting.InlineComment.DocBlock"/>
 		<exclude name="Squiz.Commenting.BlockComment.WrongStart"/>
 		<exclude name="Squiz.Commenting.BlockComment.SingleLine"/>
+		<exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber"/>
 	</rule>
 	<rule ref="Generic">
 		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
