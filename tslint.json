@@ -40,7 +40,9 @@
             "allow-leading-underscore",
             "allow-trailing-underscore",
             "allow-pascal-case"
-        ]
+        ],
+        "no-trailing-whitespace": true,
+        "whitespace": [true, "check-branch", "check-preblock", "check-decl", "check-type", "check-module"]
     },
     "rulesDirectory": []
 }
