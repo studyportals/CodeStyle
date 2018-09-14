@@ -43,3 +43,7 @@ ratings:
     - "**.js"
 exclude_paths:
    - "**/vendor/"
+checks:
+  method-complexity:
+    config:
+      threshold: 7
