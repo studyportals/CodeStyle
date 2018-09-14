@@ -46,4 +46,4 @@ exclude_paths:
 checks:
   method-complexity:
     config:
-      threshold: 5
+      threshold: 7
