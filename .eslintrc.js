@@ -10,7 +10,8 @@ module.exports = {
     	"$$": true,
     	"Shared": true,
     	"ServiceLayerClient": true,
-    	"DataStorage": true
+    	"DataStorage": true,
+	"Loot": true
     },
     "extends": "eslint:recommended",
     "rules": {
