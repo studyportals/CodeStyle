@@ -8,11 +8,9 @@
 	<rule ref="PSR1"/>
 	<rule ref="PSR2">
 		<exclude name="PSR2.Classes.ClassDeclaration.OpenBraceNewLine"/>
-		<exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/>
 		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE"/>
 		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineDEFAULT"/>
 		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BreakIndent"/>
-		<exclude name="PSR2.Files.EndFileNewline.NoneFound"/>
 	</rule>
 	<rule ref="Squiz">
 		<exclude name="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
