@@ -71,8 +71,6 @@
 		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
 		<exclude name="Generic.Classes.OpeningBraceSameLine"/>
 		<exclude name="Generic.Commenting.DocComment"/>
-		<exclude name="Generic.Files.EndFileNewline.NotFound"/>
-		<exclude name="Generic.Files.EndFileNoNewline.Found"/>
 		<exclude name="Generic.Files.InlineHTML.Found"/>
 		<exclude name="Generic.Files.LowercasedFilename.NotFound"/>
 		<exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
