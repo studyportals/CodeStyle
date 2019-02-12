@@ -6,7 +6,13 @@
 	<description>StudyPortals coding standard</description>
 
 	<rule ref="PSR1"/>
-	<rule ref="PSR2"/>
+	<rule ref="PSR2">
+		<exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/>
+		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineCASE"/>
+		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BodyOnNextLineDEFAULT"/>
+		<exclude name="PSR2.ControlStructures.SwitchDeclaration.BreakIndent"/>
+		<exclude name="PSR2.Files.EndFileNewline.NoneFound"/>
+	</rule>
 	<rule ref="Squiz">
 		<exclude name="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
 		<exclude name="Squiz.Arrays.ArrayDeclaration.KeyNotAligned"/>
@@ -64,13 +70,24 @@
 	</rule>
 	<rule ref="Generic">
 		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
+		<exclude name="Generic.Classes.OpeningBraceSameLine"/>
 		<exclude name="Generic.Commenting.DocComment"/>
+		<exclude name="Generic.Files.EndFileNewline.NotFound"/>
+		<exclude name="Generic.Files.EndFileNoNewline.Found"/>
 		<exclude name="Generic.Files.InlineHTML.Found"/>
 		<exclude name="Generic.Files.LowercasedFilename.NotFound"/>
 		<exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+		<exclude name="Generic.Formatting.NoSpaceAfterCast.SpaceFound"/>
+		<exclude name="Generic.Formatting.SpaceAfterNot.Incorrect"/>
+		<exclude name="Generic.Functions.OpeningFunctionBraceBsdAllman.BraceOnSameLine"/>
+		<exclude name="Generic.Functions.OpeningFunctionBraceKernighanRitchie"/>
 		<exclude name="Generic.PHP.ClosingPHPTag.NotFound"/>
 		<exclude name="Generic.PHP.UpperCaseConstant.Found"/>
 		<exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
+
+		<exclude name="PEAR.ControlStructures.MultiLineCondition.SpaceBeforeOpenBrace"/>
+		<exclude name="PEAR.ControlStructures.MultiLineCondition.SpacingAfterOpenBrace"/>
+		<exclude name="PEAR.ControlStructures.MultiLineCondition.StartWithBoolean"/>
 		<exclude name="PEAR.Formatting.MultiLineAssignment.EqualSignLine"/>
 	</rule>
 </ruleset>
