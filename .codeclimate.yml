@@ -29,13 +29,6 @@ engines:
       standard: "phpcodesniffer.xml"
       ignore_warnings: false
       encoding: utf-8
-    checks:
-      Squiz Commenting ClassComment Missing:
-        enabled: false
-      Squiz Commenting VariableComment Missing:
-        enabled: false
-      Squiz Commenting FunctionComment Missing:
-        enabled: false
   phpmd:
     enabled: true
     config:
