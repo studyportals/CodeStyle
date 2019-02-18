@@ -22,18 +22,25 @@
 		<exclude name="Squiz.Commenting.BlockComment.FirstLineIndent"/>
 		<exclude name="Squiz.Commenting.BlockComment.LastLineIndent"/>
 		<exclude name="Squiz.Commenting.BlockComment.LineIndent"/>
+		<exclude name="Squiz.Commenting.BlockComment.SingleLine"/>
+		<exclude name="Squiz.Commenting.BlockComment.WrongStart"/>
+		<exclude name="Squiz.Commenting.ClassComment.Missing"/>
 		<exclude name="Squiz.Commenting.ClassComment.SpacingAfter"/>
 		<exclude name="Squiz.Commenting.ClosingDeclarationComment.Missing"/>
 		<exclude name="Squiz.Commenting.FileComment"/>
 		<exclude name="Squiz.Commenting.FunctionComment.EmptyThrows"/>
+		<exclude name="Squiz.Commenting.FunctionComment.Missing"/>
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
 		<exclude name="Squiz.Commenting.FunctionComment.ParamCommentFullStop"/>
 		<exclude name="Squiz.Commenting.FunctionComment.SpacingAfter"/>
 		<exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>
 		<exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>
+		<exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber"/>
+		<exclude name="Squiz.Commenting.InlineComment.DocBlock"/>
 		<exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>
 		<exclude name="Squiz.Commenting.InlineComment.SpacingAfter"/>
 		<exclude name="Squiz.Commenting.LongConditionClosingComment.Missing"/>
+		<exclude name="Squiz.Commenting.VariableComment.Missing"/>
 		<exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
 		<exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
 		<exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
@@ -64,10 +71,6 @@
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing.AfterLast"/>
 		<exclude name="Squiz.WhiteSpace.FunctionSpacing.Before"/>
 		<exclude name="Squiz.WhiteSpace.OperatorSpacing.SpacingAfter"/>
-		<exclude name="Squiz.Commenting.InlineComment.DocBlock"/>
-		<exclude name="Squiz.Commenting.BlockComment.WrongStart"/>
-		<exclude name="Squiz.Commenting.BlockComment.SingleLine"/>
-		<exclude name="Squiz.Commenting.FunctionCommentThrowTag.WrongNumber"/>
 	</rule>
 	<rule ref="Generic">
 		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found"/>
