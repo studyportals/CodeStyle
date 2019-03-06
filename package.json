@@ -1,0 +1,28 @@
+{
+  "name": "@studyportals/code-style",
+  "version": "1.0.0",
+  "description": "Default CodeClimate configurations for the Studyportals repositories",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studyportals/CodeStyle.git"
+  },
+  "authors": [
+    {
+      "name": "Frank Kluijtmans",
+      "email": "frank@studyportals.com"
+    },
+    {
+      "name": "Stefan Klokgieters",
+      "email": "stefan@studyportals.com"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studyportals/CodeStyle/issues"
+  },
+  "homepage": "https://github.com/studyportals/CodeStyle#readme"
+}

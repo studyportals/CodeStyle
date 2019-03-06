@@ -17,8 +17,11 @@ engines:
       - python:
   eslint:
     enabled: true
+    # 5.7.0
+    channel: "eslint-5"
   tslint:
     enabled: true
+    # 5.9.1
     config: tslint.json
   fixme:
     enabled: true
@@ -41,5 +44,6 @@ ratings:
     - "**.php"
     - "**.scss"
     - "**.js"
+    - "**.ts"
 exclude_paths:
    - "**/vendor/"
