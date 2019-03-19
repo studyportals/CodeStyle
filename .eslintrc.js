@@ -14,7 +14,7 @@ module.exports = {
     	"Shared": true,
     	"ServiceLayerClient": true,
     	"DataStorage": true,
-	    "Loot": true
+        "Loot": true
     },
     "extends": "eslint:recommended",
     "rules": {
