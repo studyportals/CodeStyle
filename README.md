@@ -6,15 +6,13 @@ If you want to add or update your configuration, take the .codeclimate.yml file 
 Please send pull requests to the Tribe Leads, RobH or Frank if you think you have a new default setting for the engines.
 
 ## Install
-
 You can add CodeStyle as a dependency to your project by running the following command:
 
 ```bash
-npm install @studyportals/code-style
+npm install @studyportals/code-style --save-dev
 ```
 
 ## How To Use
-
 When you have installed the package you can simply extend from the configurations inside the CodeStyle package.
 
 Example ESLint 
@@ -39,7 +37,6 @@ By extending from the linting config files in CodeStyle you are ensuring that yo
 If you would like to use the configurations for the PHP and SCSS linters you would have to copy it from this projects source.
 
 ## Linting Dependencies
-
 In order to guarantee the same linting behaviour as in CodeClimate we added the right versions of `eslint` and `tslint` as peer dependencies to this package. Please find which version we are using right now in the table below:
 
 | Linter | Version | Based on |
@@ -49,4 +46,3 @@ In order to guarantee the same linting behaviour as in CodeClimate we added the 
 | SCSSLint | `0.52.0` (deprecated) | Custom configuration |
 | PHPmd | `2.5.0` | Custom configuration |
 | PHPCodeSniffer | `2.8.1` | Custom configuration |
-
