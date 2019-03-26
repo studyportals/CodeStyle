@@ -6,7 +6,8 @@ module.exports = {
         "browser": true
     },
     "parserOptions": {
-        "sourceType": "module"
+        "sourceType": "module",
+	    "ecmaVersion": 2017
     },
     "globals": {
     	"$": true,
@@ -21,4 +22,4 @@ module.exports = {
         "no-console": "off",
         "no-mixed-spaces-and-tabs": ["error", "smart-tabs"]
     }
-}
+};

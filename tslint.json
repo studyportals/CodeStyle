@@ -42,7 +42,8 @@
             "allow-pascal-case"
         ],
         "no-trailing-whitespace": true,
-        "whitespace": [true, "check-branch", "check-preblock", "check-decl", "check-type", "check-module"]
+        "whitespace": [true, "check-branch", "check-preblock", "check-decl", "check-type", "check-module"],
+        "no-namespace": [true, "allow-declarations"]
     },
     "rulesDirectory": []
 }
