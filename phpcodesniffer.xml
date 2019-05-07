@@ -28,6 +28,8 @@
 		<exclude name="Squiz.Commenting.ClosingDeclarationComment.Missing"/>
 		<exclude name="Squiz.Commenting.FileComment"/>
 		<exclude name="Squiz.Commenting.FunctionComment.EmptyThrows"/>
+		<exclude name="Squiz.Commenting.FunctionComment.IncorrectParamVarName"/> <!-- int vs integer, bool vs boolean -->
+		<exclude name="Squiz.Commenting.FunctionComment.InvalidReturn"/>  <!-- int vs integer, bool vs boolean -->
 		<exclude name="Squiz.Commenting.FunctionComment.Missing"/>
 		<exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
 		<exclude name="Squiz.Commenting.FunctionComment.ParamCommentFullStop"/>
@@ -40,6 +42,7 @@
 		<exclude name="Squiz.Commenting.InlineComment.SpacingAfter"/>
 		<exclude name="Squiz.Commenting.LongConditionClosingComment.Missing"/>
 		<exclude name="Squiz.Commenting.VariableComment.Missing"/>
+		<exclude name="Squiz.Commenting.VariableComment.IncorrectVarType"/> <!-- int vs integer, bool vs boolean --> 
 		<exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
 		<exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
 		<exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
