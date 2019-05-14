@@ -16,8 +16,8 @@ linters:
   SelectorFormat:
     enabled: true
     allow_leading_underscore: false
-    convention: ^[A-Z][a-zA-Z]*$
-    convention_explanation: "UpperCamelCase"
+    convention: ^[a-zA-Z]*-?[a-zA-Z]*$
+    convention_explanation: "SMACSS compliance"
     element_convention: ^[a-zA-Z]+\d?$
     element_convention_explanation: "Only letters allowed"
     id_convention: ^[a-zA-Z]+$
