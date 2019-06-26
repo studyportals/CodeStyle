@@ -4,7 +4,7 @@
 	<!--https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-ruleset.xml-->
 
 	<description>StudyPortals coding standard</description>
-	
+
 	<rule ref="PSR1"/>
 	<rule ref="PSR2">
 		<exclude name="PSR2.ControlStructures.ControlStructureSpacing.SpacingAfterOpenBrace"/>
@@ -78,6 +78,7 @@
 		<exclude name="Generic.Files.EndFileNewline.NotFound"/>
 		<exclude name="Generic.Files.EndFileNoNewline.Found"/>
 		<exclude name="Generic.Files.InlineHTML.Found"/>
+		<exclude name="Generic.Files.LineEndings"/>
 		<exclude name="Generic.Files.LowercasedFilename.NotFound"/>
 		<exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
 		<exclude name="Generic.Formatting.NoSpaceAfterCast.SpaceFound"/>
@@ -91,12 +92,6 @@
 		<exclude name="PEAR.ControlStructures.MultiLineCondition.SpacingAfterOpenBrace"/>
 		<exclude name="PEAR.ControlStructures.MultiLineCondition.StartWithBoolean"/>
 		<exclude name="PEAR.Formatting.MultiLineAssignment.EqualSignLine"/>
-	</rule>
-	
-	<rule ref="Generic.Files.LineEndings">
-		<properties>
-			<property name="eolChar" value="\r\n"/>
-		</properties>
 	</rule>
 
 </ruleset>
