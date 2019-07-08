@@ -78,6 +78,7 @@
 		<exclude name="Generic.Files.EndFileNewline.NotFound"/>
 		<exclude name="Generic.Files.EndFileNoNewline.Found"/>
 		<exclude name="Generic.Files.InlineHTML.Found"/>
+		<exclude name="Generic.Files.LineEndings"/>
 		<exclude name="Generic.Files.LowercasedFilename.NotFound"/>
 		<exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
 		<exclude name="Generic.Formatting.NoSpaceAfterCast.SpaceFound"/>
@@ -87,10 +88,10 @@
 		<exclude name="Generic.PHP.ClosingPHPTag.NotFound"/>
 		<exclude name="Generic.PHP.UpperCaseConstant.Found"/>
 		<exclude name="Generic.WhiteSpace.DisallowTabIndent"/>
-
 		<exclude name="PEAR.ControlStructures.MultiLineCondition.SpaceBeforeOpenBrace"/>
 		<exclude name="PEAR.ControlStructures.MultiLineCondition.SpacingAfterOpenBrace"/>
 		<exclude name="PEAR.ControlStructures.MultiLineCondition.StartWithBoolean"/>
 		<exclude name="PEAR.Formatting.MultiLineAssignment.EqualSignLine"/>
 	</rule>
+
 </ruleset>
