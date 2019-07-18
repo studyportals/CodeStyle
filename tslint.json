@@ -67,6 +67,10 @@
             "log",
             "info",
             "debug"
+        ],
+        "max-line-length": [
+            true,
+            140
         ]
     }
 }
