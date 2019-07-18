@@ -1,6 +1,6 @@
 {
 	"name": "@studyportals/code-style",
-	"version": "1.0.2",
+	"version": "1.0.5",
 	"description": "Default CodeClimate configurations for the Studyportals repositories",
 	"main": ".eslintrc.js",
 	"scripts": {

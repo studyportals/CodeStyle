@@ -20,6 +20,7 @@ module.exports = {
     "extends": "eslint:recommended",
     "rules": {
         "no-console": "off",
-        "no-mixed-spaces-and-tabs": ["error", "smart-tabs"]
+        "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
+        "max-len": ["error", { "code": 140 }]
     }
 };

@@ -64,8 +64,13 @@
         "forin": false,
         "no-console": [
             true,
-            "warn",
-            "error"
+            "log",
+            "info",
+            "debug"
+        ],
+        "max-line-length": [
+            true,
+            140
         ]
     }
 }
