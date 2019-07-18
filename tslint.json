@@ -3,18 +3,22 @@
     "extends": [
         "tslint:recommended"
     ],
-    "jsRules": {},
     "rules": {
-        "max-line-length": [true, 140],
         "eofline": false,
-        "array-type": [true, "generic"],
+        "array-type": [
+            true,
+            "array"
+        ],
         "object-literal-sort-keys": false,
         "ordered-imports": false,
-        "no-var-requires": false,
-        "only-arrow-functions": false,
         "no-string-literal": false,
         "arrow-parens": false,
-        "member-ordering": [true, {"order": "fields-first"}],
+        "member-ordering": [
+            true,
+            {
+                "order": "fields-first"
+            }
+        ],
         "trailing-comma": [
             true,
             {
@@ -38,12 +42,30 @@
             "ban-keywords",
             "check-format",
             "allow-leading-underscore",
-            "allow-trailing-underscore",
             "allow-pascal-case"
         ],
-        "no-trailing-whitespace": true,
-        "whitespace": [true, "check-branch", "check-preblock", "check-decl", "check-type", "check-module"],
-        "no-namespace": [true, "allow-declarations"]
-    },
-    "rulesDirectory": []
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-preblock",
+            "check-decl",
+            "check-type",
+            "check-typecast",
+            "check-module"
+        ],
+        "no-namespace": [
+            true,
+            "allow-declarations"
+        ],
+        "indent": [
+            true,
+            "tabs"
+        ],
+        "forin": false,
+        "no-console": [
+            true,
+            "warn",
+            "error"
+        ]
+    }
 }
