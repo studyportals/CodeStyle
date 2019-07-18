@@ -6,7 +6,7 @@ prepare:
   - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/.eslintignore"
   - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/.eslintrc.js"
   - "https://raw.githubusercontent.com/studyportals/CodeStyle/master/tslint.json"
-engines:
+plugins:
   duplication:
     enabled: true
     config:
@@ -39,11 +39,5 @@ engines:
       rulesets: "phpmd.xml"
   scss-lint:
     enabled: true
-ratings:
-  paths:
-    - "**.php"
-    - "**.scss"
-    - "**.js"
-    - "**.ts"
-exclude_paths:
+exclude_patterns:
    - "**/vendor/"
