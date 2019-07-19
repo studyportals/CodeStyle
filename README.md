@@ -1,5 +1,5 @@
 # CodeStyle
-Default CodeClimate configurations for use in Studyportals repositories.
+Default CodeClimate configurations to use in Studyportals repositories.
 
 If you want to add or update your configuration, take the .codeclimate.yml file and add it to the root of your repository.
 
@@ -13,10 +13,11 @@ npm install @studyportals/code-style --save-dev
 ```
 
 ## How To Use
-When you have installed the package you can simply extend from the configurations inside the CodeStyle package.
+When you installed the package you can simply *extend* from the configuration files inside the CodeStyle package.
 
-Example ESLint 
+ESLint 
 ```json
+// package.json
 "eslintConfig": {
     "extends": "./node_modules/@studyportals/code-style/.eslintrc.js",
     "parserOptions": {
@@ -25,8 +26,9 @@ Example ESLint
 }
 ```
 
-Example TSLint
+TSLint
 ```json
+// tslint.json
 {
     "extends": "./node_modules/@studyportals/code-style/tslint.json"
 }
