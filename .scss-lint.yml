@@ -82,3 +82,8 @@ linters:
     enabled: true
     leading_underscore: false
     filename_extension: false
+
+  PropertySpelling:
+    extra_properties:
+        - scroll-snap-type
+        - scroll-snap-align
