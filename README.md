@@ -1,21 +1,29 @@
 # CodeStyle
+
 Default CodeClimate configurations to use in Studyportals repositories.
 
-If you want to add or update your configuration, take the .codeclimate.yml file and add it to the root of your repository.
+If you want to add or update your configuration, take the .codeclimate.yml file
+and add it to the root of your repository.
 
-Please send pull requests to the Tribe Leads, RobH or Frank if you think you have a new default setting for the engines.
+Please send pull requests to the Tribe Leads, RobH or Frank if you think you
+have a new default setting for the engines.
 
 ## Install
-You can add CodeStyle as a dependency to your project by running the following command:
+
+You can add CodeStyle as a dependency to your project by running the following
+command:
 
 ```bash
 npm install @studyportals/code-style --save-dev
 ```
 
 ## How To Use
-When you installed the package you can simply *extend* from the configuration files inside the CodeStyle package.
 
-ESLint 
+When you installed the package you can simply _extend_ from the configuration
+files inside the CodeStyle package.
+
+ESLint
+
 ```json
 // package.json
 "eslintConfig": {
@@ -27,24 +35,36 @@ ESLint
 ```
 
 TSLint
+
 ```json
 // tslint.json
 {
-    "extends": "./node_modules/@studyportals/code-style/tslint.json"
+  "extends": "./node_modules/@studyportals/code-style/tslint.json"
 }
 ```
 
-By extending from the linting config files in CodeStyle you are ensuring that you are using the same configuration as we use in our CodeClimate configuration.
+By extending from the linting config files in CodeStyle you are ensuring that
+you are using the same configuration as we use in our CodeClimate configuration.
 
-If you would like to use the configurations for the PHP and SCSS linters you would have to copy it from this projects source.
+If you would like to use the configurations for the PHP and SCSS linters you
+would have to copy it from this projects source.
 
 ## Linting Dependencies
-In order to guarantee the same linting behaviour as in CodeClimate we added the right versions of `eslint` and `tslint` as peer dependencies to this package. Please find which version we are using right now in the table below:
 
-| Linter | Version | Based on |
-|---|---|---|
-| ESLint | `5.7.0` | `eslint:recommended` |
-| TSLint | `5.9.1` | `tslint:recommended` |
-| SCSSLint | `0.52.0` (deprecated) | Custom configuration |
-| PHPmd | `2.5.0` | Custom configuration |
-| PHPCodeSniffer | `2.8.1` | Custom configuration |
+In order to guarantee the same linting behaviour as in CodeClimate we added the
+right versions of `eslint` and `tslint` as peer dependencies to this package.
+Please find which version we are using right now in the table below:
+
+| Linter         | Version               | Based on             |
+| -------------- | --------------------- | -------------------- |
+| ESLint         | `5.7.0`               | `eslint:recommended` |
+| TSLint         | `5.9.1`               | `tslint:recommended` |
+| SCSSLint       | `0.52.0` (deprecated) | Custom configuration |
+| PHPmd          | `2.5.0`               | Custom configuration |
+| PHPCodeSniffer | `2.8.1`               | Custom configuration |
+
+### PHP Next-generateion Coding Standard
+
+For newly created PHP 7.2+ projects, refer to the contents of the
+[**php-ng**](php-ng/) folder for a future-proof (and significantly stricter) PHP
+coding standard.

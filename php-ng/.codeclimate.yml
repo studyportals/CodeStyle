@@ -1,0 +1,44 @@
+version: "2"
+checks:
+  argument-count:
+    enabled: false
+  complex-logic:
+    enabled: false
+  file-lines:
+    enabled: false
+  method-complexity:
+    enabled: false
+  method-count:
+    enabled: false
+  method-lines:
+    enabled: false
+  nested-control-flow:
+    enabled: false
+  return-statements:
+    enabled: false
+  similar-code:
+    enabled: true
+  identical-code:
+    enabled: true
+plugins:
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - php:
+  fixme:
+    enabled: true
+  phpcodesniffer:
+    enabled: true
+    config:
+      file_extensions: "php"
+      standard: "phpcs.xml"
+      ignore_warnings: true
+      encoding: utf-8
+  phpmd:
+    enabled: true
+    config:
+      rulesets: "phpmd.xml"
+exclude_patterns:
+  - "**/tests/"
+  - "**/vendor/"
