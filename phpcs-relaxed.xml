@@ -9,7 +9,7 @@
 	</rule>
 
 	<!-- Generic -->
-  <rule ref="Generic.WhiteSpace.ScopeIndent">
+	<rule ref="Generic.WhiteSpace.ScopeIndent">
 		<type>warning</type>
 	</rule>
 	<rule ref="PEAR.Functions.FunctionCallSignature">
