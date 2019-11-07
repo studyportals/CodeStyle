@@ -8,8 +8,7 @@
   <!-- Include PHP_CodeSniffer's PSR-12 ruleset -->
 
   <rule ref="PSR12">
-    <!-- Of all the rules in PSR-12, this is the only one I *really* don't
-         care about... CRLF all the way! 🙂 -->
+    <!-- use CRLF for cross-platform compatibility -->
     <exclude name="Generic.Files.LineEndings"/>
     <!-- The below is enforced as part of our "strict_types=1" check -->
     <exclude name="PSR12.Files.FileHeader"/>
