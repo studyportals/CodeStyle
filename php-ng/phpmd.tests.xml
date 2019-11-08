@@ -7,7 +7,19 @@
   <description>Studyportals PHPMD (next-gen; for test-suites)</description>
 
   <rule ref="rulesets/cleancode.xml">
-    <exclude name="StaticAccess"/> TODO: Only exclude Mockery!!!
+    <exclude name="StaticAccess"/>
+  </rule>
+
+  <!-- Static access is only allowed for Mockery -->
+
+  <rule ref="rulesets/cleancode.xml/StaticAccess">
+    <properties>
+      <property name="exceptions">
+        <value>
+          \Mockery
+        </value>
+      </property>
+    </properties>
   </rule>
 
   <rule ref="rulesets/codesize.xml">

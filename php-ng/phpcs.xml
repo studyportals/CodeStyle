@@ -41,13 +41,10 @@
     </properties>
   </rule>
 
-  <!-- For tests (*Test.php) we make an exception on the use of camelCaps
-       method names -->
-
-  TODO: Simply do this on a directory basis???
+  <!-- For tests we make an exception on the use of camelCaps method names -->
 
   <rule ref="PSR1.Methods.CamelCapsMethodName">
-    <exclude-pattern>*Test.php</exclude-pattern>
+    <exclude-pattern>tests/**</exclude-pattern>
   </rule>
 
 </ruleset>
