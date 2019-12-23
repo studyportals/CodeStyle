@@ -64,13 +64,13 @@ Install the following composer dev-dependencies
 Add the following scripts your `composer.json`:
 
 ```json
-"test": "phpunit",
-"coverage": "phpunit --coverage-clover clover.xml",
+"phpunit": "phpunit",
+"phpunit:coverage": "phpunit --coverage-clover clover.xml",
 "phpstan": "phpstan analyse --level=max src/ tests/",
-"phpcs": "phpcs --colors -p -n src/ tests/",
-"phpcbf": "phpcbf --colors -p -n src/ tests/",
+"phpcs": "phpcs --extensions=php --colors -p -n src/ tests/",
+"phpcbf": "phpcbf --extensions=php --colors -p -n src/ tests/",
 "phpmd": "phpmd src/ text phpmd.xml",
-"phpmd-tests": "phpmd tests/ text phpmd.tests.xml",
+"phpmd:tests": "phpmd tests/ text phpmd.tests.xml",
 "post-install-cmd": "cghooks add --ignore-lock",
 "post-update-cmd": "cghooks update",
 ```
@@ -84,17 +84,15 @@ Add the following to your `composer.json`
 ```json
 "extra": {
   "hooks": {
-    "pre-push": [
-      "composer run test",
-      "composer run phpstan",
-      "composer run phpcs",
-      "composer run phpmd",
-      "composer run phpmd-tests"
-    ]
+    "pre-push": "composer run phpunit && composer run phpstan && composer run phpcs && composer run phpmd && composer run phpmd:tests"
   }
 },
 
 ```
+
+Good to realise that an array-notation is supported by `cghooks`, but that will
+only fail on the result of the last command in the array. So if all commands are
+required (which is the case for us), you need to `&&` them together...
 
 To set it up for your repository, run once:
 
