@@ -29,7 +29,7 @@
 		"eslint": "5.7.0",
 		"tslint": "5.9.1"
 	},
-	"devDependencies": {
+	"dependencies": {
 		"@typescript-eslint/eslint-plugin-tslint": "^4.6.0",
 		"eslint-plugin-jsdoc": "^30.7.6",
 		"eslint-plugin-prefer-arrow": "^1.2.2"
