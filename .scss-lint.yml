@@ -48,7 +48,7 @@ linters:
 
   IdSelector:
     enabled: false
-  #"selector-max-id": 0   NOT SURE
+  #Not transferred to new ruleset after feedback
 
   SpaceBeforeBrace:
     enabled: false
@@ -66,11 +66,11 @@ linters:
 
   Comment:
     enabled: false
-  #
+  #Not transferred to new ruleset after feedback
 
   PropertySortOrder:
     enabled: false
-  #
+  #Not transferred to new ruleset after feedback
 
   FinalNewline:
     enabled: true

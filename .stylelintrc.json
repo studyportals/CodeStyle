@@ -6,7 +6,6 @@
         "color-no-invalid-hex": true,
         "number-leading-zero": "always",
         "function-parentheses-space-inside": "never",
-        "selector-max-id": 0,
         "block-closing-brace-space-after": "never",
         "shorthand-property-no-redundant-values": true,
         "rule-empty-line-before": true,
