@@ -32,6 +32,6 @@ TSLint
 }
 ```
 
-By extending from the linting config files in CodeStyle you are ensuring that you are using the same configuration as we use in our CodeClimate configuration.
+By extending from the linting config files in CodeStyle you are ensuring that you are using the same configuration as we use in our Super Linter configuration.
 
 If you would like to use the configurations for the PHP and SCSS linters you would have to copy it from this projects source.
