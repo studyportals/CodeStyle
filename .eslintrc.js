@@ -10,17 +10,34 @@ module.exports = {
         "sourceType": "module",
 		"ecmaVersion": 2017
     },
-    "globals": {
-        "$": true,
-        "$$": true,
-        "Shared": true,
-        "ServiceLayerClient": true,
-        "DataStorage": true,
-        "Loot": true
-    },
+    "globals": "off",
     "extends": "eslint:recommended",
     "rules": {
-        "no-console": "off",
+        "no-console": ["error", { 
+            allow: [
+                "warn",
+                "dir",
+                "time",
+                "timeEnd",
+                "timeLog",
+                "trace",
+                "assert",
+                "clear",
+                "count",
+                "countReset",
+                "group",
+                "groupEnd",
+                "table",
+                "dirxml",
+                "error",
+                "groupCollapsed",
+                "Console",
+                "profile",
+                "profileEnd",
+                "timeStamp",
+                "context"
+            ]
+        }],
         "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
         "max-len": ["error", { "code": 140 }]
     },
@@ -43,7 +60,7 @@ overrides: [{
         "@typescript-eslint/tslint"
     ],
     "rules": {
-        "@typescript-eslint/adjacent-overload-signatures": "error",
+        "@typescript-eslint/adjacent-overload-signatures": "off",
         "@typescript-eslint/array-type": [
             "error",
             {
@@ -81,20 +98,20 @@ overrides: [{
             "error",
             "tab"
         ],
-        "@typescript-eslint/member-ordering": "error",
-        "@typescript-eslint/naming-convention": "error",
+        "@typescript-eslint/member-ordering": "off",
+        "@typescript-eslint/naming-convention": "off",
         "@typescript-eslint/no-empty-function": "error",
         "@typescript-eslint/no-empty-interface": "error",
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-misused-new": "error",
-        "@typescript-eslint/no-namespace": "error",
+        "@typescript-eslint/no-namespace": "off",
         "@typescript-eslint/no-parameter-properties": "off",
         "@typescript-eslint/no-unused-expressions": "error",
         "@typescript-eslint/no-use-before-define": "off",
         "@typescript-eslint/no-var-requires": "error",
         "@typescript-eslint/prefer-for-of": "error",
-        "@typescript-eslint/prefer-function-type": "error",
-        "@typescript-eslint/prefer-namespace-keyword": "error",
+        "@typescript-eslint/prefer-function-type": "off",
+        "@typescript-eslint/prefer-namespace-keyword": "off",
         "@typescript-eslint/triple-slash-reference": [
             "error",
             {
@@ -124,7 +141,7 @@ overrides: [{
             "smart"
         ],
         "guard-for-in": "off",
-        "id-blacklist": [
+        "id-denylist": [
             "error",
             "any",
             "Number",
@@ -136,7 +153,7 @@ overrides: [{
             "Undefined",
             "undefined"
         ],
-        "id-match": "error",
+        "id-match": "off",
         "import/order": "off",
         "jsdoc/check-alignment": "error",
         "jsdoc/check-indentation": "error",
@@ -151,7 +168,7 @@ overrides: [{
                 "code": 140
             }
         ],
-        "new-parens": "error",
+        "new-parens": "off",
         "no-bitwise": "error",
         "no-caller": "error",
         "no-cond-assign": "error",
@@ -186,7 +203,7 @@ overrides: [{
         "no-debugger": "error",
         "no-empty": "error",
         "no-eval": "error",
-        "no-fallthrough": "off",
+        "no-fallthrough": "error",
         "no-invalid-this": "off",
         "no-new-wrappers": "error",
         "no-shadow": [
@@ -197,30 +214,19 @@ overrides: [{
         ],
         "no-throw-literal": "error",
         "no-trailing-spaces": "error",
-        "no-undef-init": "error",
+        "no-undef-init": "off",
         "no-underscore-dangle": "error",
         "no-unsafe-finally": "error",
         "no-unused-labels": "error",
         "no-var": "error",
         "object-shorthand": "error",
-        "one-var": [
-            "error",
-            "never"
-        ],
+        "one-var": "off",
         "prefer-arrow/prefer-arrow-functions": "error",
         "prefer-const": "error",
-        "radix": "error",
-        "spaced-comment": [
-            "error",
-            "always",
-            {
-                "markers": [
-                    "/"
-                ]
-            }
-        ],
-        "use-isnan": "error",
-        "valid-typeof": "off",
+        "radix": "off",
+        "spaced-comment": "off",
+        "use-isnan": "off",
+        "valid-typeof": ["error", { "requireStringLiterals": false }],
         "@typescript-eslint/tslint/config": [
             "error",
             {
