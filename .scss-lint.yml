@@ -28,72 +28,55 @@ linters:
   NestingDepth:
     enabled: true
     max_depth: 4
-  #"max-nesting-depth": 4
-
+  
   LeadingZero:
     enabled: true
     style: include_zero
-  #"number-leading-zero": "always"
-
+  
   Indentation:
     enabled: true
     character: tab
     width: 1
-  #"indentation": "tab"
-
+  
   SpaceBetweenParens:
     enabled: true
     spaces: 0
-  #"function-parentheses-space-inside": "never"
-
+  
   IdSelector:
     enabled: false
-  #Not transferred to new ruleset after feedback
-
+  
   SpaceBeforeBrace:
     enabled: false
-  #"block-closing-brace-space-after": "never"
-
+  
   Shorthand:
     enabled: false
-  #"shorthand-property-no-redundant-values": true
-
+  
   EmptyLineBetweenBlocks:
     enabled: true
-  #"rule-empty-line-before": true
-  #"block-opening-brace-newline-after": "always"
-  #"block-closing-brace-newline-after": "always",
-
+  
   Comment:
     enabled: false
-  #Not transferred to new ruleset after feedback
-
+  
   PropertySortOrder:
     enabled: false
-  #Not transferred to new ruleset after feedback
 
   FinalNewline:
     enabled: true
     present: false
-  #"no-missing-end-of-source-newline": true
 
   HexNotation:
     enabled: true
     style: uppercase
-  #"color-hex-case": "upper"
 
   HexLength:
     enabled: true
     style: long
-  #"color-hex-length": "long"
 
   HexValidation:
     enabled: true
-  #"color-no-invalid-hex": true
 
   SingleLinePerSelector:
     enabled: false
-  #"selector-list-comma-newline-after" : "always"
 
   ImportPath:
     enabled: true
