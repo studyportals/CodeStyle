@@ -28,35 +28,35 @@ linters:
   NestingDepth:
     enabled: true
     max_depth: 4
-
+  
   LeadingZero:
     enabled: true
     style: include_zero
-
+  
   Indentation:
     enabled: true
     character: tab
     width: 1
-
+  
   SpaceBetweenParens:
     enabled: true
     spaces: 0
-
+  
   IdSelector:
     enabled: false
-
+  
   SpaceBeforeBrace:
     enabled: false
-
+  
   Shorthand:
     enabled: false
-
+  
   EmptyLineBetweenBlocks:
     enabled: true
-
+  
   Comment:
     enabled: false
-
+  
   PropertySortOrder:
     enabled: false
 
