@@ -1,5 +1,4 @@
 //http://eslint.org/docs/rules/
-/*global module*/
 module.exports = {
     "env": {
         "es6": true,
@@ -10,7 +9,6 @@ module.exports = {
         "sourceType": "module",
 		"ecmaVersion": 2017
     },
-    "globals": "off",
     "extends": "eslint:recommended",
     "rules": {
         "no-console": ["error", { 
