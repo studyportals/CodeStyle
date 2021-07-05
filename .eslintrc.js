@@ -204,8 +204,8 @@ overrides: [{
         "no-fallthrough": "error",
         "no-invalid-this": "off",
         "no-new-wrappers": "error",
-	"no-shadow": "off",
-	"@typescript-eslint/no-shadow": [
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": [
             "error",
             {
                 "hoist": "all"
