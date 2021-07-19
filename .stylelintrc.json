@@ -6,15 +6,14 @@
         "color-no-invalid-hex": true,
         "number-leading-zero": "always",
         "function-parentheses-space-inside": "never",
-        "block-closing-brace-space-after": "never",
         "shorthand-property-no-redundant-values": true,
-        "rule-empty-line-before": true,
+        "rule-empty-line-before": "always",
         "block-opening-brace-newline-after": "always",
         "block-closing-brace-newline-after": "always",
         "no-missing-end-of-source-newline": true,
         "color-hex-case": "upper",
         "selector-list-comma-newline-after" : "always",
-        "no-duplicate-at-import-rules" : "true",
+        "no-duplicate-at-import-rules" : true,
         "comment-no-empty" : true
     }
 }
